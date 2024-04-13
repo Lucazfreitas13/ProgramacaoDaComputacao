@@ -1,0 +1,10 @@
+#Escreva um programa em Python para calcular o valor de uma prestação em atraso (prestacao). Para isso,     #obtenha o valor da prestação (valorPrestacao), a porcentagem de multa pelo atraso (multa) e a quantidade de #dias de atraso (qtdeDias). Calcular e mostrar o valor da prestação atualizado, sabendo que: #prestacao=valorPrestacao+(valorPrestacao*(multa/100)*qtdeDias)
+print("    Programa para Calcular Valor da Prestação com Juros")
+print("     Informe as Informações Solicitadas Abaixo:")
+prestacao=float(input("Informe o valor da prestação: "))
+multa=float(input("Informe o valor da multa: "))
+qntDias=float(input("Informe quantidade de dias em atraso: "))
+calculoMulta=multa/100
+calcPrestacao=prestacao+(prestacao*calculoMulta*qntDias)
+print(f"Valor final da prestação= {calcPrestacao:.2f} ")
+print("Obrigado por Utilizar Meu Programa By: Lucas Freitas")
