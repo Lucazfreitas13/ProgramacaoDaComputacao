@@ -1,5 +1,5 @@
 from random import*
-num=randint(0,10)
+num = randint(0,10)
 i = 0
 controle = 0
 
